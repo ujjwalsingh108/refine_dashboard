@@ -83,7 +83,7 @@ export const Login: React.FC = () => {
                       float: 'right',
                       fontSize: '12px',
                     }}
-                    href="#"
+                    href="/login"
                   >
                     Forgot password
                   </a>
@@ -95,7 +95,7 @@ export const Login: React.FC = () => {
               <div style={{ marginTop: 8 }}>
                 <Text style={{ fontSize: 12 }}>
                   Don't have an account?{' '}
-                  <a href="#" style={{ fontWeight: 'bold' }}>
+                  <a href="/login" style={{ fontWeight: 'bold' }}>
                     Sign up
                   </a>
                 </Text>

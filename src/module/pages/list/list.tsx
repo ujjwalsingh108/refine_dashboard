@@ -39,7 +39,7 @@ export const PostList: React.FC = () => {
     },
   });
 
-  const { modalProps, formProps, show, id, queryResult } = useModalForm<IPost>({
+  const { modalProps, formProps, show, queryResult } = useModalForm<IPost>({
     action: 'edit',
   });
 

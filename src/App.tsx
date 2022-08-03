@@ -11,7 +11,9 @@ import 'styles/antd.less';
 import { PostList } from './module/pages/list/list';
 import { PostShow } from './module/pages/show/show';
 import { ListCategory } from './module/pages/category/categories';
+import { ShowCategory } from 'module/pages/category/showCategory';
 import { TagCategory } from './module/pages/tag/tags';
+import { ShowTag } from 'module/pages/tag/showTag';
 import { CustomMenu } from './module/sider/customMenu';
 import { Login } from './module/login/loginPage';
 
@@ -111,10 +113,12 @@ function App() {
         {
           name: 'categories',
           list: ListCategory,
+          show: ShowCategory,
         },
         {
           name: 'tags',
           list: TagCategory,
+          show: ShowTag,
         },
       ]}
     />

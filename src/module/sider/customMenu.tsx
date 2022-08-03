@@ -19,11 +19,10 @@ import {
 } from '@pankod/refine-antd';
 
 export const CustomMenu: React.FC = () => {
-  const { mutate: Logout, isLoading } = useLogout();
+  const { mutate: Logout } = useLogout();
   const refineTitle = useTitle();
   const { Link } = useRouterContext();
-  const translate = useTranslate();
-  const { hasDashboard } = useRefineContext();
+
   const { SubMenu } = Menu;
 
   const { menuItems, selectedKey, defaultOpenKeys } = useMenu();

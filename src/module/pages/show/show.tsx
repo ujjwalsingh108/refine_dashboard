@@ -1,7 +1,7 @@
 import { useShow, useOne } from '@pankod/refine-core';
 import { Show, Typography, Tag } from '@pankod/refine-antd';
 
-import { IPost, ICategory, ILanguage, IUser } from '../../interfaces';
+import { ICategory, ILanguage, IUser } from '../../interfaces';
 
 const { Title, Text } = Typography; // destructuring of variables ES6
 
