@@ -13,6 +13,7 @@ import {
 } from '@pankod/refine-antd';
 import '../../styles/antd.less';
 import { ILoginForm } from '../interfaces';
+import { Logo } from '../../images';
 
 const { Text, Title } = Typography;
 
@@ -38,7 +39,7 @@ export const Login: React.FC = () => {
         <Col xs={22}>
           <div className="login-container">
             <div className="login-imageContainer">
-              <img src="./ampcome.png" alt="Ampcome Logo" />
+              <img src={Logo} alt="Refine Logo" />
             </div>
             <Card title={CardTitle} headStyle={{ borderBottom: 0 }}>
               <Form<ILoginForm>
